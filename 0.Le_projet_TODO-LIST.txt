@@ -1,0 +1,25 @@
+
+Présentation du projet 
+......................
+
+Un todo-list simple réalisé en Javscript qui permet d'ajouter, importer et supprimer des tâches.
+
+1. La partie html
+
+Elle est composé d'un titre et trois champs de texte :
+- Un champ pour entrer une nouvelle tâche associé à un bouton 'ADD' pour ajouter la tâche
+- Un champ pour charger un tableau au format JSON associé à un bouton 'LOAD'
+- Un bouton 'CLEAR' pour effacer les tâches
+- un ul pour acceuilir chaque tâches dans l'application
+
+2. La partie Javascript
+
+ Un dossier JS : 
+
+- un fichier index.js concerne l'application
+- un fichier ArrayStorage.js pour gérer le stockage en local des différentes tâches que le visiteur aura ajouter 
+  sur son navigateur. A la réouverture du navigateur les tâches seront toujours présent.
+
+2.1 Index.js
+
+ - Sélection des éléments du DOM html à partir du Javascript
